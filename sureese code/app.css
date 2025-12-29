@@ -177,3 +177,26 @@ nav{
 .header-box{
     margin-top: -20vw;
 }
+.prodeckt-sliter{
+    background: #fff;
+    margin: 0 30px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.prodeckt-sliter .prodocts{
+    display: flex;
+    overflow: auto;
+    gap: 20px;
+    margin-top: 10px;
+
+}
+.prodeckt-sliter .prodocts img{
+    max-width: 200px;
+    max-height: 200;
+
+}
+
+.prodeckt-sliter .prodocts ::-webkit-scrollbar{
+    display: none;
+}
+
